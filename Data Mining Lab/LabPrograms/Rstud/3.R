@@ -17,3 +17,19 @@ inspect(sort(itemRules,by="confidence"))
 
 #graph showing the strong association rules
 plot(itemRules, method="graph")
+
+
+######################################################################
+# library(arules) 
+# library(arulesViz) 
+
+
+# # import dataset 
+# data("Groceries") 
+
+# # using apriori() function 
+# rules <- apriori(Groceries,parameter = list(supp = 0.01, conf = 0.2)) 
+
+# # using inspect() function 
+# inspect(rules[1:10])
+# plot(rules[1:15])
